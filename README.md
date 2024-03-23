@@ -19,7 +19,7 @@ conda create -n ugml python=3.10  # python version 3.6+
 conda acitvate ugml
 conda install fastp flash samtools freebayes
 ```
-- Get AmpHap
+- Get UGML
 ```
 git clone https://github.com/RoderickNi/UGML.git
 ```
