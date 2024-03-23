@@ -6,5 +6,5 @@ UGML (Unveiling the Gene Mutational Landscape) is a Python script designed for L
 ## Dependencies
 fastp v0.23.2 (https://github.com/OpenGene/fastp)    
 FLASH v1.2.11 (https://github.com/dstreett/FLASH2)    
-samtools v1.3.1 (https://github.com/samtools/samtools)
+samtools v1.3.1 (https://github.com/samtools/samtools)    
 freebayes v1.3.7 (https://github.com/freebayes/freebayes)  
