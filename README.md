@@ -8,3 +8,23 @@ fastp v0.23.2 (https://github.com/OpenGene/fastp)
 FLASH v1.2.11 (https://github.com/dstreett/FLASH2)    
 samtools v1.3.1 (https://github.com/samtools/samtools)    
 freebayes v1.3.7 (https://github.com/freebayes/freebayes)  
+
+- Program execution flow   
+![image execution flow](https://github.com/RoderickNi/UGML/blob/main/UGML_Program_execution_flow.png)
+
+## Installation
+- Conda environment    
+```
+conda create -n ugml python=3.10  # python version 3.6+
+conda acitvate ugml
+conda install fastp flash samtools freebayes
+```
+- Get AmpHap
+```
+git clone https://github.com/RoderickNi/UGML.git
+```
+
+## Usage
+```
+
+```
