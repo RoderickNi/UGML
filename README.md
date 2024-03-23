@@ -26,5 +26,12 @@ git clone https://github.com/RoderickNi/UGML.git
 
 ## Usage
 ```
-
+python UGML.py --fq1  {RawReads_1.fq path} \
+               --fq2  {RawReads_2.fq path} \
+               --ref  {Reference.fa path} \
+               --od   {Output Directory path} \
+               --RT   {Read Type:  150 (PE150) or 250 (PE250) (default: 150)} \
+               --minF {Thresholds for SNP detection: minimum frequency (default: 0.01)}
+               --minN {Thresholds for SNP detection: minimum number (default: 10)}
+               --CPU  {CPU number for calculation (default: 3)}
 ```
