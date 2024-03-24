@@ -35,3 +35,10 @@ python UGML.py --fq1  {RawReads_1.fq path}
                --minN {Thresholds for SNP detection: minimum number (default: 10)}
                --CPU  {CPU number for calculation (default: 3)}
 ```
+
+## Example
+```
+python UGML.py --fq1 Raw_1.fq --fq2 Raw_2.fq --ref reference.fa --od OutputDir --RT 150 --minF 0.01 --minN 10 --CPU 3
+```
+
+
